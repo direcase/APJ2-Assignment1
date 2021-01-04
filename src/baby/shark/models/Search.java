@@ -42,7 +42,7 @@ public class Search extends Thread{
             }
             if(count!=0)  //Check for count not equal to zero
             {
-                res="The given word is present for "+count+ " Times in the file  "+filename;
+                res="is present for "+count+ " Times in the file  "+filename;
             }
             else
             {

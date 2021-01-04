@@ -66,9 +66,16 @@
             <div class="boxLogIn">
                 <%
                     search=new Search(input,listOfFiles[i].getName());
-                    search.start();
+                    if(i%2==0){
+
+                        search.start();
+                        search.join();
+                    }else {
+                        search.start();
+                        search.join();
+                    }
                     String s= search.getInput();%>
-                <p>The "<%=s%>" word is present for <%=search.getRes()%>  Times in the file <%=search.getFilename()%></p>
+                <p>The "<%=s%>" word <%=search.getRes()%>  </p>
             </div>
 <%}%>
 
