@@ -19,7 +19,7 @@ public class Search extends Thread{
 
     @Override
     public void run() {
-        File f1=new File("C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1\\src\\txtFiles\\"+filename); //Creation of File Descriptor for input file
+        File f1=new File("C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1.2\\src\\txtFiles\\"+filename); //Creation of File Descriptor for input file
         String[] words=null;  //Intialize the word Array
         FileReader fr = null;  //Creation of File Reader object
 

@@ -44,7 +44,7 @@
 
         <%
             String input= (String)request.getAttribute("input");
-            File folder = new File("C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1\\src\\txtFiles");
+            File folder = new File("C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1.2\\src\\txtFiles");
             File[] listOfFiles = folder.listFiles();
             Search search = null;
 

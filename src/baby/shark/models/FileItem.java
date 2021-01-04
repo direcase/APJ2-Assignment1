@@ -3,7 +3,7 @@ package baby.shark.models;
 import java.io.File;
 
 public class FileItem {
-    private final String path = "C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1\\src\\txtFiles";
+    private final String path = "C:\\Users\\User\\IdeaProjects\\APJ2-Assignment1.2\\src\\txtFiles";
     private final String pathToIcons="C:\\Users\\User\\IdeaProjects\\not icloud\\src\\main\\java\\item\\icons\\";
     private final File folder = new File(path);
     private final File iconFolder = new File(pathToIcons);
